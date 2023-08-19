@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  --color-green: #05976A;
+  --color-mint: #39CF9B;
+  --color-herbal: #31B185;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.text-heading-1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.text-heading-2 {
+  font-size: 3rem;
+}
+
+.text-heading-3 {
+  font-size: 2rem;
+}
+
+.text-heading-4 {
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.button {
+  background: var(--color-mint);
+  color: var(--color-white);
+  align-self: center;
+  border: none;
+  height: 56px;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .2s;
+  white-space: nowrap;
+
+  &:hover {
+    background: var(--color-herbal);
+  }
+}
